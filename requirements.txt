@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+requests
+
+pandas
+numpy
+scikit-learn
+imblearn
+xgboost
+pickle-mixin
