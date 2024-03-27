@@ -42,17 +42,17 @@ def display_homepage():
     # Additional content after the container
     st.write("")
     st.write("Risk_ICU is a tool to assess the mortality risk of patients on the Intensive Care Unit (ICU). It can be used either for a quick initial risk stratification at the first patient encounter or with more laboratory values and further clinical assessment as an advanced risk stratification device.")
-    st.write("In the context of the project weeks for the Le Wagon Data Science Bootcamp (Batch 1601), we trained and deployed two machine learning models:")
-    st.write("- The initial risk assessment model, is intended to be used by medical personnel as a quick first assessment for patients that have just entered the ICU. The data points used to train the model were minimum, simulating only those parameters 24/7 available for risk assessments in all ICUs independently of the hospital´s level of care. To predict the risk, we used a XGBoost model, which was optimized using random search after extensive data preprocessing.")
+    st.write("During the project weeks at the Le Wagon Data Science Bootcamp (Batch 1601) we trained and deployed two machine learning models:")
+    st.write("- The initial risk assessment model is intended to be used by medical personnel as a quick first assessment for patients that have just entered the ICU. The data points used to train the model were minimum, simulating only those parameters 24/7 available for risk assessments in all ICUs independently of the hospital´s level of care. To predict the risk, we used a XGBoost model, which was optimized using random search after extensive data preprocessing.")
     st.write("- The advanced risk assessment model was trained with more complex values that e.g. require clinical laboratories. We opted against the usage of parameters that require a specific technical infrastructure to make the application available to as many hospitals as possible. For this task we built a machine learning structure optimized via random search consisting of a Decision Tree model with Adaptive Boosting combined through stacking with a XGBoost model.")
-    st.write("To train and test our models we used patient data from the first 24 hours of an ICU stay, as made available by MIT's GOSSIS community initiative, with privacy certification from the Harvard Privacy Lab. This dataset contains more than 130,000 individual ICU visits from multiple countries, spanning a one-year timeframe.")
-    st.write("Please use the navigation bar on the left to get to the models")
+    st.write("To train and test our models we used patient data gathered during either during the first hour or the first 24 hours of an ICU stay, as made available by MIT's GOSSIS community initiative with privacy certification from the Harvard Privacy Lab. This dataset contains around 180 features for more than 130,000 patients from multiple countries, spanning a one-year timeframe.")
+    st.write("Please use the navigation bar on the left to get to the models.")
     st.subheader("Authors:")
-    st.write("- Julia Decker [Connect on LinkedIn](https://www.linkedin.com/in/juliadeckerpotsdam/)")
-    st.write("- William Brudenell [Connect on LinkedIn](https://www.linkedin.com/in/willbrudenell/)")
-    st.write("- Francisco Chaves [Connect on LinkedIn](https://www.linkedin.com/in/francisco-chaves-b32798277)")
-    st.write("- Dominik Naumann [Connect on LinkedIn](https://www.linkedin.com/in/dr-med-univ-dominik-naumann-37217595)")
-    st.write("Feel free to check out the [slides](https://docs.google.com/presentation/d/1VPHEraQF5XaodlEiBV8Vn6eY_enAjMVZZRviK91wvWA/edit?usp=sharing) and the [presentation](https://www.youtube.com) for this project")
+    st.write("- Julia Decker ([Connect on LinkedIn](https://www.linkedin.com/in/juliadeckerpotsdam/))")
+    st.write("- William Brudenell ([Connect on LinkedIn](https://www.linkedin.com/in/willbrudenell/))")
+    st.write("- Francisco Chaves ([Connect on LinkedIn](https://www.linkedin.com/in/francisco-chaves-b32798277))")
+    st.write("- Dominik Naumann ([Connect on LinkedIn](https://www.linkedin.com/in/dr-med-univ-dominik-naumann-37217595))")
+    st.write("Feel free to check out the [slides](https://docs.google.com/presentation/d/1VPHEraQF5XaodlEiBV8Vn6eY_enAjMVZZRviK91wvWA/edit?usp=sharing) and the [presentation](https://www.youtube.com) for this project.")
 
 
 
