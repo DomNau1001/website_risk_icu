@@ -10,7 +10,6 @@ PAGES = {
 
 
 def display_homepage():
-    st.title('Homepage')
     def center_vertically(image_path, text):
         """Centers the image and text vertically using columns and CSS."""
         # Read image data as bytes
