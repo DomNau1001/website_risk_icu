@@ -125,7 +125,7 @@ def display_advanced_risk_assessment():
     st.subheader("Please Enter Patient Details:")
     col1, col2 = st.columns(2)
 
-    age = col1.number_input("Age (years)", value = "Enter Value")
+    age = col1.number_input("Age (years)", value = 0)
     bmi = col2.number_input("BMI (kg/qm)", value = 0)
     temp_min = col1.number_input("Minimal Temperature (°C)", value =0)
     temp_max = col2.number_input("Maximal Temperature (°C)", value =0)
