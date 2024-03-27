@@ -66,7 +66,7 @@ def display_initial_risk_assessment():
     age = col2.number_input("Age (years)", value = 0)
     gender = col1.selectbox("Gender", ["M", "F"])
     pre_icu_days = st.number_input("Previous In-Hospital Days", value = 0)
-    icu_admit = st.selectbox("Patient Admitted from A&E?", ["yes", "no"])
+    icu_admit = st.selectbox("Patient Admitted from the Emergency Room?", ["yes", "no"])
     elective_surg = col2.selectbox("Prior Elective Surgery", ["yes", "no"])
     cirrhosis = col1.selectbox("Cirrhosis", ["yes", "no"])
     immunosuppression = col2.selectbox("Immunosuppression", ["yes", "no"])
