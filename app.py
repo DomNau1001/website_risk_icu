@@ -146,7 +146,7 @@ def display_advanced_risk_assessment():
     gcs_verbal = st.selectbox("GCS Verbal", [1, 2, 3, 4, 5])
     gcs_motor = st.selectbox("GCS Motor", [1, 2, 3, 4, 5, 6])
     ventilated = st.selectbox("Patient on Ventilation?", ["yes", "no"])
-    icu_admit = st.selectbox("Patient Admitted from A&E?", ["yes", "no"])
+    icu_admit = st.selectbox("Patient Admitted from the Emergency Room?", ["yes", "no"])
 
 
     # Call API to get prediction result using twenty_four_hour_patient_data
