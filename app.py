@@ -209,9 +209,9 @@ def run_UI():
     # Display the selected page
     if page == 'Homepage':
         display_homepage()
-    elif page == 'Initial RA (1 hour)':
+    elif page == 'Initial Risk Assessment':
         display_initial_risk_assessment()
-    elif page == 'Advanced RA (24 hours)':
+    elif page == 'Advanced Risk Assessment':
         display_advanced_risk_assessment()
 
 if __name__ == '__main__':
