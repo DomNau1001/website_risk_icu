@@ -49,6 +49,7 @@ def display_homepage():
     st.write("To train and test our models we used data from the first 24 hours of intensive care unit, as made available by MIT's GOSSIS community initiative, with privacy certification from the Harvard Privacy Lab. This dataset contains more than 130,000 hospital Intensive Care Unit (ICU) visits from patients, spanning a one-year timeframe.")
     st.subheader("Authors:")
     st.write("- Dominik Naumann")
+    st.markdown("[Dominik Naumann](https://www.google.com/)")
     st.write("- Francisco Chaves")
     st.write("- William Brudenell")
     st.write("- Julia Decker")
@@ -125,7 +126,7 @@ def display_advanced_risk_assessment():
     st.subheader("Please Enter Patient Details:")
     col1, col2 = st.columns(2)
 
-    age = col1.number_input("Age (years)", value = 0)
+    age = col1.number_input("Age (years)", value = "Enter Value")
     bmi = col2.number_input("BMI (kg/qm)", value = 0)
     temp_min = col1.number_input("Minimal Temperature (°C)", value =0)
     temp_max = col2.number_input("Maximal Temperature (°C)", value =0)
