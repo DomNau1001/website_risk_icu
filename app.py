@@ -132,7 +132,7 @@ def display_advanced_risk_assessment():
     sysbp_min = col1.number_input("Minimal Systolic Blood Pressure (mmHg)", value = 0)
     rr_max = col2.number_input("Maximal Respiratory Rate (breaths/min)", value = 0)
     rr_min = col1.number_input("Minimal Respiratory Rate (breaths/min)", value = 0)
-    mbp_min = col1.number_input("Mean Arterial Pressure (mmHg)", value = 0)
+    mbp_min = col1.number_input("Minimal Mean Arterial Pressure (mmHg)", value = 0)
     hco3_max = col2.number_input("Maximal Bicarbonate (mmol/L)", value = 0)
     glucose_min = col1.number_input("Minimal Glucose (mmol/L)", value = 0)
     sodium_min = col2.number_input("Minimal Sodium (mmol/L)", value = 0)
