@@ -37,7 +37,7 @@ def display_homepage():
         # Display text in right column with centered CSS
         with col2:
             st.markdown(f"<h1 style='text-align: center;'>{text}</h1>", unsafe_allow_html=True)
-    image_path = "/Users/dominiknaumann/code/DomNau1001/website_risk_icu/clipart2872083.png"
+    image_path = "clipart2872083.png"
     text = "Welcome to Risk_ICU!"
     center_vertically(image_path, text)
     # Additional content after the container
