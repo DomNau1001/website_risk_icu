@@ -140,7 +140,7 @@ def display_advanced_risk_assessment():
     wbc_max = col2.number_input("Maximal White Blood Cell Count (10^9/L)", value =0)
     bun_max = col1.number_input("BUN (mmol/L)", value = 0)
     crea_max = col2.number_input("Creatinine (mmol/L)", value = 0)
-    platelets_min = col1.number_input("Minimal Platelets (mmol/L)", value = 0)
+    platelets_min = col1.number_input("Minimal Platelets (10^9/L)", value = 0)
     hema_min = col2.number_input("Minimal Hemaglobin (g/dL)", value = 0)
     gcs_eyes = st.selectbox("GCS Eyes", [1, 2, 3, 4])
     gcs_verbal = st.selectbox("GCS Verbal", [1, 2, 3, 4, 5])
